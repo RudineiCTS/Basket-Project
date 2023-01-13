@@ -1,0 +1,36 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+:root{
+  --white:#fff;
+  
+  --cyan: #A7C5BD;
+  --beige: #E5DDCB;
+  --orange: #EB7B59;
+  --red: #CF4647;
+  --purple:#524656;
+
+  --font-title: 'Bungee', cursive;
+  --font-text: 'Roboto Mono', monospace;
+}
+
+body  {
+  background-image: url('./images/background.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+  color: var(--white);
+}
+
+body,input,select, textarea, button{
+  font: 400 1rem "Roboto", sans-serif;
+}
+button {
+  cursor: pointer;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
